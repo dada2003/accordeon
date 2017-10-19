@@ -25,8 +25,7 @@ span{
 }
 .accord__cont{
     display: none;
+    background-color: darkcyan;
 }
-.visible{
-    display: block;
-}
+
 
