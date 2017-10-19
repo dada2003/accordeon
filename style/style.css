@@ -1,0 +1,32 @@
+
+.accord{
+    list-style: none;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0;
+    width: 300px;
+    position: relative;
+    left: 30%;
+}
+.accord:last-child{
+    border-bottom: 2px solid black;
+}
+.accord__header{
+    background-color: darkslategray;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+span{
+    color:chartreuse;
+}
+.accord__cont{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
